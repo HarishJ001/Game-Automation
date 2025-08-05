@@ -22,8 +22,6 @@ pyautogui / keyboard / pynput – For sending right/left key presses (depending 
 
 📦 Installation
 
-bash
-
 git clone https://github.com/yourusername/game-automation-python.git
 cd game-automation-python
 pip install -r requirements.txt
@@ -32,8 +30,6 @@ pip install -r requirements.txt
 Launch your game and position the game window correctly.
 
 Run the automation script:
-
-bash
 
 python main.py
 Watch the bot play using left and right arrow key inputs.
@@ -46,6 +42,7 @@ Processes frames to detect objects (like obstacles or the player).
 Makes decisions to press left or right based on object position.
 
 Uses time.sleep() to pace decisions based on gameplay speed.
+
 
 ⚠️ Disclaimer
 This tool is intended for educational and personal testing purposes only. Use responsibly and do not violate any game's terms of service.
